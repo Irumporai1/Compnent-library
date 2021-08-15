@@ -1,123 +1,139 @@
-@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet&display=swap");
 
-:root{
-    --primary-color:#9D174D;
-    --dark-grey:#4B5563;
-    --off-white:#E5E7EB;
+:root {
+  --primary-color: #9d174d;
+  --dark-grey: #4b5563;
+  --off-white: #e5e7eb;
 }
 
-body{
-    font-family: 'Hahmlet', serif;
+body {
+  font-family: "Hahmlet", serif;
+  font-size: large;
 }
 
-hr{
-    margin: 2rem 0rem;
+p {
+  text-align: justify;
 }
-.container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+hr {
+  margin: 2rem 0rem;
 }
-
-.container-center{
-    max-width: 600px;
-    margin: auto;
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.link{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+.container-center {
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 0.5rem;
 }
 
-.link-primary{
-    background-color: var(--primary-color);
-    border-radius:  0.5rem;
-    color: white
+.orl,
+h2 {
+  margin-top: 4rem;
 }
 
-.link-secondary{
-    color:var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-    
+.link,
+.fo-link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
 
-.no-bullet{
-    list-style: none;
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  margin-top: 0.5rem;
 }
 
-.list-inline{
-    display: inline;
-    padding: 0rem 0.5rem;
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+  margin-top: 0.5rem;
 }
 
-.navigation{
-    background-color: var(--primary-color);
-    color:white;
-    padding: 1rem; 
-    border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius: 0.5rem;
+.no-bullet {
+  list-style: none;
 }
 
-.navigation .nav-brand{
-    font-weight: bold;
-    font-size: 1.1rem;
+.list-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
 }
 
-.navigation .link{
-    color: white;
-    
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
-.navigation .nav-pills{
-    text-align: center;
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 15pt;
 }
 
-.navigation .link-active{
-    font-weight: bold;
+.navigation .link {
+  color: white;
+}
+
+.navigation .nav-pills {
+  text-align: center;
+}
+
+.navigation .link-active {
+  font-weight: bold;
 }
 
 .hero {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .hero .hero-img {
-    max-width: 350px;
-    display: block;
-    margin: auto;
+  max-width: 350px;
+  display: block;
+  margin: auto;
 }
 
-.hero .hero-heading{
-    padding: 1rem;
-    color: var(--dark-grey);
-    text-align: center;
+.blog-img {
+  max-width: 800px;
+  display: block;
+  margin: auto;
 }
 
-.hero .head-color{
-    color: var(--primary-color);
+.hero .hero-heading {
+  margin-top: 1rem;
+  color: var(--dark-grey);
+  text-align: center;
 }
 
-.section{
-    padding: 2rem;
+.hero .head-color {
+  color: var(--primary-color);
 }
 
-.section h3{
-    text-align: center;
+.section {
+  padding: 2rem;
 }
 
-.ow{
-    background-color: var(--off-white);
+.section h3 {
+  text-align: center;
 }
 
-.footer{
-    background-color: var(--primary-color);
-    padding: 1rem 1rem;
-    text-align: center;
-    border-top-right-radius: 0.5rem;
-
-
+.ow {
+  background-color: var(--off-white);
 }
 
-.footer .link{
-    color: white;
+.footer {
+  background-color: var(--primary-color);
+  padding: 1rem 1rem;
+  text-align: center;
+  border-top-right-radius: 0.5rem;
 }
-.foo
+
+.footer,
+.footer-header,
+.fo-link {
+  color: white;
+}
